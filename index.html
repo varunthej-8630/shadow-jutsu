@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naruto Shadow Clone Jutsu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+
+      <div class="hero-header">
+        <div class="watermark">VARUNTHEJ</div>
+        <h1>Naruto Shadow Clone Jutsu</h1>
+        <p class="tagline">⚡ The art of being everywhere at once ⚡</p>
+        <p class="by-line">by <span class="name-highlight">Varunthej</span></p>
+      </div>
+
+      <div id="confidence-container" class="confidence-container">
+        <div class="confidence-text">Chakra Level:</div>
+        <div class="confidence">0%</div>
+      </div>
+
+      <div id="error" class="error hidden"></div>
+
+      <div class="video-container">
+        <video id="video" autoplay playsinline></video>
+        <canvas id="canvas"></canvas>
+
+        <!-- Overlay button -->
+        <button class="video-overlay-btn">
+          <img id="overlayImg" src="assets/state-1.png" data-state="1" alt="overlay button" />
+        </button>
+
+        <!-- Reset Button -->
+        <button class="reset-btn" id="resetBtn" onclick="resetClones()">🔄 Reset Jutsu</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+  <!-- MediaPipe Core -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+
+  <!-- MediaPipe Models -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/selfie_segmentation/selfie_segmentation.js"></script>
+
+  <!-- Javascript -->
+  <script src="script.js"></script>
+</body>
+</html>
