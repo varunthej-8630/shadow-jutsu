@@ -1,6 +1,8 @@
 # 🍥 Naruto Shadow Clone Jutsu
 
-> *"Believe it! I didn't study ML in Python like a normal person. I did it in JavaScript. Because I'm Varunthej."*
+> *"Believe it!
+<img width="1600" height="847" alt="image" src="https://github.com/user-attachments/assets/9944d48a-8ec6-435f-91ff-24c34b55be31" />
+
 
 A real-time **Shadow Clone Jutsu** experience powered by your webcam and machine learning. Train your own hand sign, perform it in front of the camera, and watch your clones appear with smoke effects — just like Naruto! 
 
