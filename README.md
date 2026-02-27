@@ -1,7 +1,14 @@
 # 🍥 Naruto Shadow Clone Jutsu
 
 > *"Believe it!
+img shows traning html page 
 <img width="1600" height="847" alt="image" src="https://github.com/user-attachments/assets/9944d48a-8ec6-435f-91ff-24c34b55be31" />
+
+img shows main page 
+<img width="1600" height="853" alt="image" src="https://github.com/user-attachments/assets/a5cf2fb6-0f38-4acd-8fcb-116d7809c48a" />
+
+shadow clone justu img
+<img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/c7089a92-7a14-412d-91b3-34eefb661259" />
 
 
 A real-time **Shadow Clone Jutsu** experience powered by your webcam and machine learning. Train your own hand sign, perform it in front of the camera, and watch your clones appear with smoke effects — just like Naruto! 
